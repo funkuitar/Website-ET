@@ -1,4 +1,4 @@
-# Website Anna Beispiel – Malerei
+# Website – Malerei
 
 Statische Website (HTML/CSS/JS) für GitHub Pages. Kein Build-Schritt, keine Cookies, keine externen Dienste.
 
@@ -19,7 +19,7 @@ assets/img/portrait.jpg  Porträtfoto
 
 ## Vor dem Veröffentlichen anpassen
 
-1. **Name, Texte, Vita, Ausstellungen** in `index.html` ersetzen (Platzhalter „Anna Beispiel“ überall suchen & ersetzen).
+1. **Name, Texte, Vita, Ausstellungen** in `index.html` ersetzen (Platzhalter überall suchen & ersetzen).
 2. **E-Mail-Adresse** in `index.html`, `impressum.html`, `datenschutz.html` und `assets/js/main.js` (Konstante `KONTAKT_EMAIL`).
 3. **Impressum & Datenschutz**: alle gelb markierten Stellen (`class="todo"`) ausfüllen, danach die Markierung entfernen.
 4. **Bilder**: Platzhalter in `assets/img/werke/` und `assets/img/portrait.jpg` durch echte Fotos ersetzen.
