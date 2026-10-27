@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- TODO: Name und Beschreibung anpassen -->
+  <title>Elfi Thalheim – Malerei auf Leinwand</title>
+  <meta name="description" content="Elfi Thalheim  – Malerin aus Dietzenbach. Werke auf Leinwand, Ausstellungen, Kontakt.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="#top">Elfi Thalheim</a>
+  <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+  <nav class="site-nav">
+    <a href="#werke">Werke</a>
+    <a href="#ueber">Über mich</a>
+    <a href="#cv">Vita</a>
+    <a href="#ausstellungen">Ausstellungen</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Malerei · Rhein-Main</p>
+      <h1>Struktur, Farbe,<br>Form.</h1>
+      <p class="lead">Von der Phantasie in die Abstraktion, Kunst ist Freiheit, Freiheit ist Kunst.</p>
+      <a class="btn" href="#werke">Werke ansehen</a>
+    </div>
+    <div class="hero-image">
+      <img src="assets/img/werke/werk-08.jpg" alt="Ausschnitt">
+    </div>
+  </section>
+
+  <!-- ===== Werke ===== -->
+  <section id="werke" class="section">
+    <h2>Werke</h2>
+    <p class="section-intro">Ein Klick auf ein Bild öffnet die Großansicht mit allen Details. Anfragen zu verfügbaren Arbeiten gern per E-Mail.</p>
+
+    <div class="filters" role="group" aria-label="Werke nach Format filtern">
+      <button class="filter active" data-filter="alle">Alle</button>
+      <button class="filter" data-filter="klein">Klein (bis 50 cm)</button>
+      <button class="filter" data-filter="mittel">Mittel (bis 100 cm)</button>
+      <button class="filter" data-filter="gross">Groß (über 100 cm)</button>
+      <button class="filter" data-filter="verfuegbar">Verfügbar</button>
+    </div>
+
+    <div id="gallery" class="gallery"><!-- wird aus assets/js/werke.js befüllt --></div>
+    <noscript><p>Bitte JavaScript aktivieren, um die Galerie zu sehen.</p></noscript>
+  </section>
+
+  <!-- ===== Über mich ===== -->
+  <section id="ueber" class="section about">
+    <div class="about-img">
+      <!-- TODO: eigenes Foto ersetzen (Hochformat, ca. 800×1000 px) -->
+      <img src="assets/img/portrait.jpg" alt="Porträt von Elfi Thalheim bei der ARTig">
+    </div>
+    <div class="about-text">
+      <h2>Über mich</h2>
+      <p>In Österreich geboren, nach Sprachstudien in England, Frankreich, Schweiz habe ich als Stewardess auf der ganzen Welt Inspirationen gesammelt.</p>
+      <p>Erste Versuche mit Ölfarben, Teilnahme an verschiedenen Seminaren und professioneller Unterricht führten mich zu einer Art Traummalerei.</p>
+      <p>Seit einigen Jahren beschäftige ich mich erfolgreich mit experimenteller Acrylmalerei in Verbindung mit verschiedenen Materialien wie Bitumen, Sand, Zement, Steinmehl etc.</p>
+	  <p>Mit den Augen fotografiert, das Gefühlte umgesetzt in surreale Kompositionen, eröﬀnen meine Bilder einen kreativen Dialog zwischen Realität und Imagination.</p>
+	  <p>Explosive Landschafen, die auf einer flachen Oberfläche festgehalten, einen Blick auf geheimnisvolle Welten und Distanzen eröﬀnen. Sie zeigen ein Schauspiel der grossen Naturmächte, erzeugen eine besondere Stimmung, die auf den Betrachter wirkt und ohne Worte das Sehen und Entdecken anregt.</p>
+	  <p>Die Strukturen der Ursprungsidee bilden den Ausgangspunkt für die Bildbearbeitung, ein Spiel mit dem Licht, Gegenständliches löst sich in Farbflächen auf, wobei die Zerstörung und Wiederherstellung in einem spannenden Arbeitsprozess neue Inspirationen entstehen lassen.</p>
+	  <blockquote>„Das Tête à Tête mit der Leinwand ist ein Ort der Freiheit, der einem das Leben lieben lehrt!“</blockquote>
+    </div>
+  </section>
+
+  <!-- ===== CV ===== -->
+  <section id="cv" class="section">
+    <h2>Vita</h2>
+    <div class="cv-grid">
+      <div>
+        <h3>Ausbildung</h3>
+        <dl class="timeline">
+          <dt>2012–2018</dt><dd>Beispieltext</dd>
+          <dt>1970-1984</dt><dd>Beispieltext 2</dd>
+        </dl>
+      </div>
+      <div>
+        <h3>Preise &amp; Stipendien</h3>
+        <dl class="timeline">
+          <dt>2023</dt><dd>Ayxz</dd>
+          <dt>2020</dt><dd>FXyz</dd>
+        </dl>
+      </div>
+      <div>
+        <h3>Mitgliedschaften</h3>
+        <dl class="timeline">
+          <dt>seit 2019</dt><dd>Berufsverband Bildender Künstler*innen (Beispiel)</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Ausstellungen ===== -->
+  <section id="ausstellungen" class="section">
+    <h2>Ausstellungen</h2>
+    <div class="cv-grid">
+      <div>
+        <h3>Aktuell &amp; demnächst</h3>
+        <ul class="events">
+          <li><strong>RODGAU ART</strong><span>31.10.2026 – 01.11.2026</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Einzelausstellungen (Auswahl)</h3>
+        <dl class="timeline">
+          <dt>2025</dt><dd>Galerie Opus Schärding</dd>
+		  <dt>2024</dt><dd>Ratsstube Dietzenbach.</dd>
+        </dl>
+      </div>
+      <div>
+        <h3>Gruppenausstellungen (Auswahl)</h3>
+        <dl class="timeline">
+          <dt>2019-2026</dt><dd>ARTig Dietzenbach</dd>
+          <dt>2021</dt><dd>KIR Rödermark</dd>
+		  <dt>2021</dt><dd>Kunst in der Altstadt</dd>
+		  <dt>2021</dt><dd>Kreishaus Dietzenbach</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Kontakt ===== -->
+  <section id="kontakt" class="section contact">
+    <h2>Kontakt</h2>
+    <p>Für Anfragen zu Werken, Auftragsarbeiten, Ausstellungen oder einen Atelierbesuch schreiben Sie mir gern.</p>
+    <p class="contact-links">
+      <!-- TODO: E-Mail anpassen (auch in assets/js/main.js) -->
+      <a class="btn" href="mailto:kontakt@elfithalheim.de">kontakt@elfithalheim.de</a>
+    </p>
+    <p class="small">Atelier: Dietzenbach – Besuche nach Vereinbarung.</p>
+    <!-- Social-Media nur als einfacher Link (kein eingebettetes Widget, keine Datenübertragung beim Seitenaufruf) -->
+    <p class="small"> <a href="https://www.instagram.com/elfithalheim" rel="noopener" target="_blank">Instagram.com/elfithalheim</a></p> 
+	<div class="instagram-icon" ><img src="assets/img/Instagram_Glyph_Black.svg"> </div> 
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Elfriede Thalheim. Alle Bilder urheberrechtlich geschützt.</p>
+  <nav><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></nav>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Werk-Ansicht">
+  <button class="lb-close" aria-label="Schließen">×</button>
+  <button class="lb-prev" aria-label="Vorheriges Werk">‹</button>
+  <figure>
+    <img id="lb-img" src="" alt="">
+    <figcaption id="lb-caption"></figcaption>
+  </figure>
+  <button class="lb-next" aria-label="Nächstes Werk">›</button>
+</div>
+
+<script src="assets/js/werke.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
