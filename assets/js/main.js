@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  const KONTAKT_EMAIL = "kontakt@anna-beispiel.de"; // TODO anpassen
+  const KONTAKT_EMAIL = "kontakt@elfithalheim.de"; // TODO anpassen
 
   const STATUS_TEXT = { verfuegbar: "verfügbar", verkauft: "verkauft", reserviert: "reserviert" };
 
