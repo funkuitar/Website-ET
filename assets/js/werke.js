@@ -15,7 +15,7 @@ const WERKE = [
   { datei: "IMG_1856.jpg", titel: "Landschaft 1", technik: "Struktur/Acryl auf Leinwand", breite: 120,  hoehe: 90,  status: "verfügbar"}, 
   { datei: "IMG_2203.jpg", titel: "glühende Landschaft",    Technik: "Zement/Struktur/Acryl auf Leinwand",    breite: 150,  hoehe: 60, status: "verfuegbar"}, 
   { datei: "IMG_1723.jpg", titel: "Landschaft 2", technik: "Acryl/Struktur auf Leinwand", breite: 120,  hoehe: 90,  status: "verfügbar"},   
-  { datei: "IMG_1871.jpg", titel: "Schlag aus dem Sand", technik: "Acryl auf Leinwand",    breite: 2x60, hoehe: 80, status: "verfuegbar"}, 
+  { datei: "IMG_1871.jpg", titel: "Schlag aus dem Sand", technik: "Acryl auf Leinwand",    breite: 120, hoehe: 80, status: "verfuegbar"}, 
   { datei: "IMG_0810.jpg", titel: "der Weg ins Licht 1",  technik: "Struktur/Acryl auf Leinwand", breite: 80,  hoehe: 100 ,  status: "verkauft"},
   { datei: "IMG_2776.Jpg", Titel: "der Sonne entgegen",  technik: "Struktur/Gold/Acryl auf Leinwand", breite: 100, hoehe 120, status: "verfügbar"},
   { datei: "IMG_2542.Jpg", Titel: "hinterm Horizont gehts weiter",  technik: "Struktur/Acryl auf Leinwand", hoehe: 120, breite: 90, status: "verfügbar"},
