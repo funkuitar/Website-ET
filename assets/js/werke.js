@@ -18,7 +18,7 @@ const WERKE = [
   { datei: "IMG_1871.JPG", titel: "Schlag aus dem Sand", jahr:2025, technik: "Acryl auf Leinwand", breite: 120, hoehe: 80, status: "verfuegbar", preis:""}, 
   { datei: "IMG_0810.JPG", titel: "der Weg ins Licht 1", jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 80,  hoehe: 100 ,  status: "verkauft", preis:""},
   { datei: "IMG_2776.JPG", titel: "der Sonne entgegen", jahr:2025, technik: "Struktur/Gold/Acryl auf Leinwand", breite: 100, hoehe: 120, status: "verfuegbar", preis:""},
-  { datei: "IMG_2542.JPG", titel: "hinterm Horizont",  jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 90, hoehe: 120, status: "verfuegbar", preis:""},
+  { datei: "IMG_2542.JPG", titel: "hinterm Horizont gehts weiter",  jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 90, hoehe: 120, status: "verfuegbar", preis:""},
   { datei: "IMG_1978.JPG", titel: "ohne", jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 90, hoehe: 120, status: "verfuegbar", preis:""},
   { datei: "IMG_0177.JPG", titel: "ohne", jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 140, hoehe: 100, status: "verfuegbar", preis:""},
   { datei: "IMG_0172.JPG", titel: "ohne", jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 140, hoehe: 100, status: "reserviert", preis:""},
