@@ -1,12 +1,11 @@
 /* Keine externen Schriften (z. B. Google Fonts) – bewusst, damit beim Seitenaufruf
    keine Daten an Dritte übertragen werden. Es werden Systemschriften genutzt. */
 :root {
-    --bg: #22201d;
-  --fg: #faf8f4;
-
-  --muted: #aaa39a;
-  --accent: #d87550;
-  --line: #46413b;
+  --bg: #faf8f4;
+  --fg: #22201d;
+  --muted: #6d675f;
+  --accent: #b5532f;
+  --line: #e4ded4;
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --max: 1180px;
