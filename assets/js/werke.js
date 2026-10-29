@@ -11,7 +11,7 @@ const WERKE = [
       { datei: "IMG_0170.JPG", titel: "Abendstimmung", jahr:2025, technik: "Mixed Media,Acryl", breite: 100, hoehe: 80, status: "verfuegbar", preis:""}, 
   { datei: "IMG_0105.JPG", titel: "Gesichtslos", jahr:2025, technik: "Bitumen/Acryl", breite: 100, hoehe: 80, status: "verkauft", preis:""}, 
   { datei: "IMG_1247.JPG", titel: "Waldlichtung", jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 80,  hoehe: 100,  status: "verkauft", preis:""}, 
-  { datei: "IMG_1761.JPG", titel: "Begrenzung", jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 110, hoehe: 90,  status: "verfuegbar", preis:""},
+  { datei: "IMG_1751.JPG", titel: "Begrenzung", jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 110, hoehe: 90,  status: "verfuegbar", preis:""},
   { datei: "IMG_1856.JPG", titel: "Landschaft 1", jahr:2025, technik: "Struktur/Acryl auf Leinwand", breite: 120, hoehe: 90,  status: "verfuegbar", preis:""}, 
   { datei: "IMG_2203.JPG", titel: "glühende Landschaft", jahr:2025, technik: "Zement/Struktur/Acryl auf Leinwand", breite: 150, hoehe: 60, status: "verfuegbar", preis:""}, 
   { datei: "IMG_1723.JPG", titel: "Landschaft 2", jahr:2025, technik: "Acryl/Struktur auf Leinwand", breite: 120, hoehe: 90,  status: "verfuegbar", preis:""},   
