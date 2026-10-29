@@ -25,10 +25,10 @@
     fig.dataset.status = w.status;
     fig.tabIndex = 0;
     fig.innerHTML = `
-      <div class="work-img"><img src="assets/img/werke/${escapeHtml(w.datei)}" alt="${escapeHtml(w.titel)}, ${w.jahr}" loading="lazy"></div>
+      <div class="work-img"><img src="assets/img/werke/${escapeHtml(w.datei)}" alt="${escapeHtml(w.titel)}" loading="lazy"></div>
       <figcaption>
         <span class="work-title">${escapeHtml(w.titel)}</span>
-        <span class="work-meta">${w.jahr} · ${w.breite} × ${w.hoehe} cm</span>
+        <span class="work-meta">${w.breite} × ${w.hoehe} cm</span>
         <span class="badge badge-${w.status}">${STATUS_TEXT[w.status] || ""}</span>
       </figcaption>`;
     fig.addEventListener("click", () => openLightbox(i));
@@ -65,10 +65,10 @@
     const w = WERKE[i];
     lbImg.src = "assets/img/werke/" + w.datei;
     lbImg.alt = w.titel;
-    const subject = encodeURIComponent(`Anfrage zum Werk „${w.titel}“ (${w.jahr})`);
+    const subject = encodeURIComponent(`Anfrage zum Werk „${w.titel}“`);
     const preis = w.status === "verfuegbar" ? (w.preis ? w.preis : "Preis auf Anfrage") : "";
     lbCap.innerHTML = `
-      <strong>${escapeHtml(w.titel)}</strong>, ${w.jahr}<br>
+      <strong>${escapeHtml(w.titel)}</strong><br>
       ${escapeHtml(w.technik)} · ${w.breite} × ${w.hoehe} cm<br>
       <span class="badge badge-${w.status}">${STATUS_TEXT[w.status] || ""}</span> ${escapeHtml(preis)}
       ${w.status !== "verkauft" ? `<br><a class="btn btn-small" href="mailto:${KONTAKT_EMAIL}?subject=${subject}">Anfrage senden</a>` : ""}`;
@@ -105,6 +105,3 @@
     toggle.setAttribute("aria-expanded", open);
   });
   nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => nav.classList.remove("open")));
-
-  document.getElementById("year").textContent = new Date().getFullYear();
-})();
